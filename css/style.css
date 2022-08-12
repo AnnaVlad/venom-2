@@ -188,8 +188,7 @@ vertical-align: middle;
 @media (max-width: 1024px) {
   .content {
   flex-direction: column;
-  /* align-items: center;  */
-  width: 80%;
+  width: 90%;
   } 
   .trailer {
     margin-bottom: 7%;
@@ -301,6 +300,10 @@ vertical-align: middle;
     justify-content: center;
     flex-direction: column;
   }
+  .content {
+    align-items: center;
+    text-align: center;
+  }
   .button-link {
     margin: 20px 0px;
   }
@@ -308,8 +311,21 @@ vertical-align: middle;
     margin-right: 0;
     margin-bottom: 10px;
   }
+  .column-2 {
+    text-align: left;
+    padding-left: 12%;
+  }
   .film {
     text-align: center;
+  }
+  .play-icon {
+    /* position: relative; */
+    top: 27%;
+    left: 2%;
+  }
+  .trailer {
+    width: 90%;
+    margin: 0 auto;
   }
   .poster-wrapper {
     flex-direction: column;
@@ -319,9 +335,14 @@ vertical-align: middle;
   grid-template-columns: 50% 50%;
   grid-column-gap: 25px;
   order: 0;
-  }
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 12%;
+}
   .poster {
     order: 1;
+    width: 90%;
+    margin: 0 auto;
   }
   .primary-bg {
     background: rgb(15, 2, 2);
