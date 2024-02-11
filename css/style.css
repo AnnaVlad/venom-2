@@ -21,9 +21,13 @@ img {
 .nav-menu {
   display: flex;
   list-style: none;
-  overflow: 0.5;
-  font-size: 400;
+  }
+h1 {
+  display: block;
+  margin-top: 255px;
+  font-size: 100px;
 }
+
 .nav-menu__item {
   margin-right: 30px;
 }
