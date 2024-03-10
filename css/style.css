@@ -28,7 +28,7 @@ h1 {
   font-size: 100px;
 }
 
-.nav-menu__item {
+.page_item {
   margin-right: 30px;
 }
 .nav-menu__link {
@@ -92,10 +92,12 @@ vertical-align: middle;
 .blood {
   background: url('../img/blood.png') no-repeat top right,
    rgb(15, 2, 2) url('../img/background.jpg') no-repeat
-    center center /100%;
-}
-.primary-bg {
-  background:  rgb(15, 2, 2) url('../img/background.jpg') no-repeat center center /100%;
+    center center / 100%;
+  }
+  .primary-bg {
+    /* background:  rgb(15, 2, 2) url('../img/background.jpg') no-repeat center center / 100%; */
+    margin: 0;
+    background-size: cover;
 }
 
 .content {
